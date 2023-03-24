@@ -1,0 +1,12 @@
+.category-container{
+    background-color: goldenrod;
+    margin:20px;
+    padding:20px;
+    border:2px solid tan;
+    border-radius: 20px;
+}
+.category-container img{
+    width: 300px;
+    background-color:aliceblue;
+    border:4px solid brown;
+}

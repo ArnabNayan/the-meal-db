@@ -1,0 +1,27 @@
+.category h1{
+    color:red ;
+   
+}
+.category{
+    background-color: rgba(123, 233, 60, 0.767);
+    padding: 20px;
+    margin:20px;
+}
+.categories{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .category h1{
+      animation: h1 infinite 4s linear;
+    }
+  }
+@keyframes h1{
+    from {
+      background-color:yellow;
+    }
+    to {
+      background-color:aqua;
+    }
+  }
